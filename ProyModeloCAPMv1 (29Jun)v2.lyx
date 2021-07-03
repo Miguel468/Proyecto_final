@@ -1,0 +1,6603 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language spanish-mexico
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "times" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures false
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style french
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Análisis del comportamiento del valor de las acciones del 2016 a 2021 de
+ empresas del ramo de la construcción en México a traves del modelo CAPM
+ 
+\end_layout
+
+\begin_layout Author
+Aldo Aguilar Vázquez
+\begin_inset Newline newline
+\end_inset
+
+Alicia López Rodríguez
+\begin_inset Newline newline
+\end_inset
+
+Miguel Ángel Jesús Ortega Vite
+\begin_inset Newline newline
+\end_inset
+
+Edmundo Sosa Bonilla
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+El sector de la Construcción en México es relevante para la economía.
+ Las obras se construyen a lo largo del país y frecuentemente han sido utilizada
+s como motor de la producción.
+ La construcción siempre ha estado vinculada con el desarrollo del país
+ y ha sido palanca fundamental para lograrlo.
+ La infraestructura carretera, las obras pesadas de irrigación, la trasmisión
+ de energía, las obras de edificación entre las que sobresale la vivienda
+ de interés social, la construcción de obras de equipamiento urbano y muchas
+ más son parte de los activos del país.
+ Mientras más obras se construyen, más riqueza se crea, y no solamente eso,
+ también se genera mayor empleo.
+ Por lo anterior, la construcción es una industria que tiene una importante
+ función social.
+ Es el sector de la economía que absorbe la mayor cantidad de mano de obra
+ no calificada del país.
+ 
+\end_layout
+
+\begin_layout Abstract
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Marco Teórico
+\end_layout
+
+\begin_layout Subsection
+Supuesto del modelo CAPM
+\end_layout
+
+\begin_layout Standard
+El modelo CAPM (Capital Asset Pricing Model) es un modelo de valoración
+ de activos financieros desarrollado por William Sharpe que permite estimar
+ su rentabilidad esperada en función del riesgo sistemático.
+ Se trata de un modelo teórico basado en el equilibrio del mercado.
+ Es decir, se presume que la oferta de activos financieros iguala a la demanda
+ (O=D).
+ La situación del mercado es de competencia perfecta y, por tanto, la interacció
+n de oferta y demanda determinará el precio de los activos.
+ Además, existe una relación directa entre la rentabilidad del activo y
+ el riesgo asumido.
+ A mayor riesgo mayor rentabilidad de tal modo que si pudiésemos medir y
+ otorgar valores al nivel de riesgo asumido, podríamos conocer el porcentaje
+ exacto de rentabilidad potencial de los distintos activos.
+\end_layout
+
+\begin_layout Standard
+Se debe tener en cuenta que el modelo CAPM únicamente toma en consideración
+ el riesgo sistemático.
+ Sin embargo, dentro del riesgo total de un activo financiero también se
+ incluye el riesgo no sistemático o diversificable, es decir, el riesgo
+ intrínseco del título en cuestión.
+\end_layout
+
+\begin_layout Subsection
+Ecuación del modelo CAPM
+\end_layout
+
+\begin_layout Standard
+El modelo CAPM, trata de formular este razonamiento y considera que se puede
+ estimar la rentabilidad de un activo del siguiente modo:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+E(r_{i})=r_{f}+\beta[(E(r_{m})-r_{f})]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $E(r_{i})$
+\end_inset
+
+: Tasa de rentabilidad esperada de un activo concreto, por ejemplo, de una
+ acción del Ibex 35.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $r_{f}$
+\end_inset
+
+: Rentabilidad del activo sin riesgo.
+ Realmente, todos los activos financieros conllevan riesgo.
+ Por lo que buscamos activos de menor riesgo, que en escenarios de normalidad
+ son los activos de deuda pública.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\beta$
+\end_inset
+
+: Medida de la sensibilidad del activo respecto a su Benchmark.
+ La interpretación de este parámetro nos permite conocer la variación relativa
+ de la rentabilidad del activo respecto al mercado en que cotiza.
+ Por ejemplo, si una acción del IBEX 35 tiene una Beta de 1,1, quiere decir
+ que cuando el IBEX suba un 10% la acción subirá un 11%.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $E(r_{m})$
+\end_inset
+
+: Tasa de rentabilidad esperada del mercado en que cotiza el activo.
+ Por ejemplo, del IBEX 35.
+ 
+\end_layout
+
+\begin_layout Standard
+Descomponiendo la fórmula, podemos diferenciar dos factores:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $r_{m}-r_{f}:$
+\end_inset
+
+Riesgo asociado al mercado en que cotiza el activo.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $r_{i}-r_{f}:$
+\end_inset
+
+ Riesgo asociado al activo en concreto.
+\end_layout
+
+\begin_layout Standard
+Por tanto, podemos observar que la rentabilidad esperada del activo vendrá
+ determinada por el valor de Beta como medición del riesgo sistemático.
+\end_layout
+
+\begin_layout Subsection
+Representación gráfica del CAPM
+\end_layout
+
+\begin_layout Standard
+La fórmula del modelo de valoración de activos financieros se representa
+ gráficamente incluyendo la línea del mercado de valores (SML):
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Proyecto/Imagen_0.jpg
+	lyxscale 50
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Representación gráfica
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Presunciones del modelo CAPM
+\end_layout
+
+\begin_layout Standard
+El modelo presume varios supuestos sobre el comportamiento de los mercados
+ y sus inversores:
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Modelo estático, no dinámico
+\emph default
+.
+ Los inversores únicamente toman en consideración un período.
+ Por ejemplo, un año.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Los inversores son aversos al riesgo
+\emph default
+, no propensos.
+ Para inversiones con mayor nivel de riesgo exigirán mayores rentabilidades.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Los inversores sólo atienden al riesgo sistemático.
+ E
+\emph default
+l mercado no genera mayor o menor rentabilidad para los activos por el riesgo
+ no sistemático.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+La rentabilidad de los activos se corresponde con una distribución normal
+\emph default
+.
+ La esperanza matemática, se asocia a la rentabilidad.
+ La desviación estándar, se asocia al nivel de riesgo.
+ Por tanto, los inversores se preocupan por la desviación del activo respecto
+ al mercado en que cotiza.
+ Por ello, se utiliza la Beta como medida de riesgo.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+El mercado es perfectamente competitivo.
+
+\emph default
+ Cada inversor posee una función de utilidad y una dotación de riqueza inicial.
+ Los inversores optimizarán su utilidad en función de las desviaciones del
+ activo con respecto a su mercado.
+ La oferta de activos financieros es una variable exógena, fija y conocida.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Todos los inversores poseen la misma información
+\emph default
+ de forma instantánea y gratuita.
+ Por tanto, sus expectativas de rentabilidad y riesgo para cada tipo de
+ activo financiero
+\end_layout
+
+\begin_layout Section
+Variables del Modelo
+\end_layout
+
+\begin_layout Standard
+Describir las caracteristicas de los datos del modelo, nomenclaturas, significad
+os, temporalidad, frecuencias, unidades de medida, unidades de observación
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+ARA (Consorcio ARA, S.A.B.
+ de C.V.):
+\emph default
+ Es una empresa pública que se dedica al diseño, promoción, construcción
+ y comercialización de desarrollos habitacionales de Interés Social, Tipo
+ Medio y Residencial, así como a la edificación y arrendamiento de centros
+ comerciales.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+CEMEX (CEMEX, S.A.B.
+ de C.V.):
+\emph default
+ Es una empresa multinacional mexicana dedicada a la industria de la construcció
+n, que ofrece productos y servicio a clientes y comunidades en más de 50
+ países en el mundo.
+ La compañía mexicana ocupa el tercer lugar mundial en ventas de cemento
+ y es la principal empresa productora de concreto premezclado, con una capacidad
+ de producción de aproximadamente 77 millones de toneladas anuales, atendiendo
+ así los mercados de América, Europa, Asia, África y Medio Oriente.
+ CEMEX opera actualmente en cuatro continentes, con 66 plantas de cemento,
+ 2,000 instalaciones de concreto premezclado, 400 canteras, 260 centros
+ de distribución y 80 terminales marinas.4 Cerca de un tercio de las ventas
+ de la compañía vienen de sus operaciones en México, un cuarto de sus plantas
+ en E.U.A., 15% de España, y el resto de sus plantas alrededor del mundo.
+ Las oficinas centrales se encuentran en San Pedro Garza García, dentro
+ de la Zona Metropolitana de Monterrey, en el noreste de México.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+GCARSO (Grupo Carso, S.A.B.
+ de C.V.):
+\emph default
+ Es uno de los conglomerados más grandes e importantes de México y de América
+ Latina.
+ Controla y opera gran variedad de empresas en el ramo comercial, comunicacional
+, industrial y de consumo.
+ Es controlado por el multimillonario mexicano Carlos Slim.
+ Tiene su sede en la Ciudad de México, México.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+HOMEX (Desarrolladora Homex, S.A.B.
+ de C.V): 
+\emph default
+Es una empresa desarrolladora de vivienda verticalmente integrada que se
+ dedica al desarrollo, construcción y venta de vivienda de interés social,
+ vivienda media y residencial en México.
+ Su principal objetivo como empresa es crear valor a accionistas y grupos
+ de interés, mediante la construcción y administración de un sólido portafolio
+ de desarrollos habitacionales.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+JAVER (Servicios Corporativos Javer, S.A.B.
+ de C.V.):
+\emph default
+ Es el desarrollador de vivienda más grande de México y el proveedor líder
+ del sistema de créditos Infonavit en todo el país.
+ Se especializa en la construcción de vivienda de interés social, media
+ y residencial, y se enfoca en desarrollar viviendas con calidad y diseños
+ superiores en excelentes ubicaciones.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+SARE (SARE Holding, S.A.B.
+ de C.V):
+\emph default
+A lo largo de 41 años de experiencia en el mercado de la vivienda, SARE
+ ha consolidado una posición de liderazgo mediante una oferta diversificada
+ de productos de calidad que satisfacen los gustos y necesidades de las
+ nuevas familias mexicanas.
+ Nuestros productos abarcan todos los segmentos del mercado: vivienda económica,
+ interés social, media, residencial y Turistica.
+ SARE ha definido un modelo de negocios que se distingue por su alto grado
+ de diversificación en cuanto a regiones, segmentos y opciones de financiamiento
+ hipotecario para sus clientes.
+ Esta estrategia propicia una gran flexibilidad de operación y permite a
+ la empresa adecuarse a las circunstancias siempre cambiantes del mercado
+ de la vivienda.
+ SARE cotiza en la Bolsa Mexicana de Valores desde octubre del 2003.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+TUBACEX (Tubacex S.
+ A.): 
+\emph default
+es un grupo industrial español fundado en 1963 con sede en el municipio
+ alavés de Llodio.
+ Especializado en la producción de tubos y aleaciones sin soldadura, cuenta
+ con factorías en España, Austria y Estados Unidos.
+ Cuenta con unos 2500 empleados en todo el mundo1 y cotiza en la Bolsa de
+ Madrid desde 1970.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+VINTE (VINTE Viviendas Integrales, S.A.B.
+ de C.V.): 
+\emph default
+Es una inmobiliaria mexicana sustentable verticalmente integrada con un
+ claro enfoque en rentabilidad.
+ Desde hace más de 16 años se dedica a desarrollar conjuntos habitacionales
+ sustentables para familias de ingreso social, medio y residencial, enfocándose
+ sólidamente en mejorar su calidad de vida, labor por la que ha obtenido
+ múltiples reconocimientos nacionales e internacionales.
+ Durante su historia ha desarrollado más de 40 mil viviendas en 5 estados
+ de México, principalmente en el centro del país; alcanzado un alto nivel
+ de lealtad entre sus clientes y un amplio reconocimiento de marca en las
+ plazas en que opera.
+ Vinte cuenta con un equipo directivo altamente calificado, con más de 27
+ años de experiencia en el sector vivienda en México.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+IPC (Indice de Precios de Consumo): 
+\emph default
+Es un índice económico en el que se valoran los precios de un determinado
+ conjunto de bienes y servicios (conocido como «canasta familiar» o «cesta
+ familiar») determinado sobre la base de la encuesta continua de presupuestos
+ familiares (también llamada «encuesta de gastos de los hogares»), que una
+ cantidad de consumidores adquiere de manera regular, y la variación con
+ respecto del precio de cada uno, respecto de una muestra anterior.
+ Mide los cambios en el nivel de precios de una canasta de bienes y servicios
+ de consumo adquiridos por los hogares.
+ Se trata de un porcentaje que puede ser positivo (lo que indica un incremento
+ de los precios) o negativo (que refleja una caída de los precios).
+ 
+\end_layout
+
+\begin_layout Section
+Análisis expliratorio de variables
+\end_layout
+
+\begin_layout Subsection
+Gráficos del comportamiento de las acciones e IPC
+\end_layout
+
+\begin_layout Standard
+El precio de Todas tiene um comportamiento ....
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Proyecto/Imagen_1.jpg
+	lyxscale 50
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Comportamiento de acción analizadas y el IPC del 2016 al 2021
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El precio de ARA tiene um comportamiento ....
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Proyecto/Imagen_2.jpg
+	lyxscale 50
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Comportamiento de acción ARA del 2016 al 2021 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El precio de CEMEX tiene um comportamiento ....
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Proyecto/Imagen_3.jpg
+	lyxscale 50
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Comportamiento de acción CEMEX del 2016 al 2021
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El precio de GCARSO tiene um comportamiento ....
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Proyecto/Imagen_4.jpg
+	lyxscale 50
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Comportamiento de acción GCARSO del 2016 al 2021
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El precio de HOMEX tiene um comportamiento ....
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Proyecto/Imagen_5.jpg
+	lyxscale 50
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Comportamiento de acción HOMEX del 2016 al 2021
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El precio de JAVER tiene um comportamiento ....
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Proyecto/Imagen_6.jpg
+	lyxscale 50
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Comportamiento de acción JAVER del 2016 al 2021
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El precio de SARE tiene um comportamiento ....
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Proyecto/Imagen_7.jpg
+	lyxscale 50
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Comportamiento de acción SARE del 2016 al 2021
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El precio de TUBACEX tiene um comportamiento ....
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Proyecto/Imagen_9.jpg
+	lyxscale 50
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Comportamiento de acción TUBACEX del 2016 al 2021
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El precio de VINTE tiene um comportamiento ....
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Proyecto/Imagen_10.jpg
+	lyxscale 50
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Comportamiento de acción VINTE del 2016 al 2021
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El precio de IPC tiene un comportamiento ....
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Proyecto/Imagen_11.jpg
+	lyxscale 50
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Comportamiento del IPC del 2016 al 2021
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Gráficos del comportamiento de los rendimientos de las acciones e IPC
+\end_layout
+
+\begin_layout Standard
+Comporativa de la evolución de rendicmientos de todas las acciones y el
+ IPC 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Proyecto/Imagen_8.jpg
+	lyxscale 50
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Evolución del comportamiento de los Rendimientos de las acciones analizadas
+ y el IPC del 2016 al 2021
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Evolución del Rendimiento de ARA
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Proyecto/Imagen_10.jpg
+	lyxscale 50
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Evolución del Rendimiento de ARA del 2016 al 2021
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Evolución del Rendimiento de CEMEX
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Proyecto/Imagen_12.jpg
+	lyxscale 50
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Evolución del Rendimiento de CEMEX del 2016 al 2021
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Evolución del Rendimiento de GCARSO del 2016 al 2021
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Proyecto/Imagen_1.jpg
+	lyxscale 50
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Evolución del Rendimiento de GCARSO del 2016 al 2021
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Evolución del Rendimiento de HOMEX del 2016 al 2021
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Proyecto/Imagen_1.jpg
+	lyxscale 50
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Evolución del Rendimiento de HOMEX del 2016 al 2021
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Evolución del Rendimiento de JAVER del 2016 al 2021
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Proyecto/Imagen_1.jpg
+	lyxscale 50
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Evolución del Rendimiento de JAVER del 2016 al 2021
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Evolución del Rendimiento de SARE del 2016 al 2021
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Proyecto/Imagen_1.jpg
+	lyxscale 50
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Evolución del Rendimiento de SARE del 2016 al 2021
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Evolución del Rendimiento de TUBACEX del 2016 al 2021
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Proyecto/Imagen_1.jpg
+	lyxscale 50
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Evolución del Rendimiento de TUBACEX del 2016 al 2021
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Evolución del Rendimiento de VINTE del 2016 al 2021
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Proyecto/Imagen_1.jpg
+	lyxscale 50
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Evolución del Rendimiento de VINTE del 2016 al 2021
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Evolución del Rendimiento de IPC del 2016 al 2021
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Proyecto/Imagen_1.jpg
+	lyxscale 50
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Comportamiento del IPC del 2016 al 2021
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Estadísticos principales
+\end_layout
+
+\begin_layout Standard
+Estadísticos principales, usando observaciones del 13/06/2016 al 14/06/2021
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="6">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Variables 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Media
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mediana
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DT
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Min
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Max
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+pc_JAVER
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0146
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.21
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-25.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9.35
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+pc_ARA
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0138
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.141
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.59
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-13.2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+25.6
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+pc_HOMEX
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-1.081
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-2.42
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13.2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-35.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+92.1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+pc_SARE
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.61
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+14.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-34.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+112
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+pc_VINTE
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.308
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.46
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-100
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.63
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+pc_CEMEX
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.277
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.230
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5.33
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-19.6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+23.0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+pc_TUBAMEX
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0655
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.79
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-23.0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+35.5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+pc_GCARSO
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0623
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.287
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.47
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-17.6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+18.0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+pc_IPC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0713
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0245
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.27
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-10.0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7.82
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Media
+\end_layout
+
+\begin_layout Standard
+Usando observaciones del 13/06/2016 al 14/06/2021
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Variable
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Media
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+pc_SARE
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+1.61
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+pc_CEMEX
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.277
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+pc_IPC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.0713
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+pc_TUBACEX
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.0655
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+pc_GCARSO
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.0623
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+pc_JAVER
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.0146
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+pc_ARA
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.0138
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+pc_VINTE
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.308
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+pc_HOMEX
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-1.08
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Desviación Estandar
+\end_layout
+
+\begin_layout Standard
+Usando observaciones del 13/06/2016 al 14/06/2021
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Variable
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+D.
+ T.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+pc_SARE
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+14.5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+pc_HOMEX
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+13.2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+pc_VINTE
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+6.46
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+pc_CEMEX
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+5.33
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+pc_TUBACEX
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+4.79
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+pc_ARA
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+4.59
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+pc_GCARSO
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+4.47
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+pc_IPC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+2.27
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+pc_JAVER
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+2.21
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Matriz de correlación
+\end_layout
+
+\begin_layout Standard
+Usando observaciones del 13/06/2016 al 14/06/2021
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="10">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+JAVER
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ARA
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+HOMEX
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+SARE
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+VINTE
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+CEMEX
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+TUBACEX
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+GCARSO
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+IPC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+1.0000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.0581
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.4179
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.0457
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.0934
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.3179
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.0831
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.1904
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.2381
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+JAVER
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+1.0000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.5724
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.0000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.2384
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.7500
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.7236
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.6379
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.8169
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ARA
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+1.0000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.0853
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.0880
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.6096
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.2036
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.5923
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.4628
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+HOMEX
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+1.0000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.6302
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.4066
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.3543
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.1363
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.2655
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+SARE
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+1.0000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.5004
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.0882
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.0683
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+-0.4224
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+VINTE
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+1.0000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.3381
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.5335
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.8563
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+CEMEX
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+1.0000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.5554
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.5947
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+TUBACEX
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+1.0000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.6304
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+GCARSO
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+1.0000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+IPC
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Coeficientes de correlación, usando las observaciones 2016-06-13 - 2021-06-14
+ Valor crítico al 5% (a dos colas) = 0.1212 para n = 262 
+\end_layout
+
+\begin_layout Standard
+Usando observaciones del 13/06/2016 al 14/06/2021
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} Coeficientes de correlación, usando las observaciones 2016-06-13
+ - 2021-06-14
+\backslash
+
+\backslash
+ valor crítico al 5
+\backslash
+% (a dos colas) = 0.1212 para n = 262
+\backslash
+
+\backslash
+ 
+\backslash
+vspace{8pt} 
+\backslash
+begin{tabular}{rrrrrl} JAVER & ARA & HOMEX & SARE & VINTE &
+\backslash
+
+\backslash
+ $1.0000$ & $-0.0581$ & $-0.4179$ & $-0.0457$ & $0.0934$ & JAVER
+\backslash
+
+\backslash
+  & $1.0000$ & $0.5724$ & $-0.0000$ & $-0.2384$ & ARA
+\backslash
+
+\backslash
+  &  & $1.0000$ & $-0.0853$ & $-0.0880$ & HOMEX
+\backslash
+
+\backslash
+  &  &  & $1.0000$ & $-0.6302$ & SARE
+\backslash
+
+\backslash
+  &  &  &  & $1.0000$ & VINTE
+\backslash
+
+\backslash
+ 
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{rrrrl} CEMEX & TUBACEX & GCARSO & IPC &
+\backslash
+
+\backslash
+ $-0.3179$ & $-0.0831$ & $-0.1904$ & $-0.2381$ & JAVER
+\backslash
+
+\backslash
+ $0.7500$ & $0.7236$ & $0.6379$ & $0.8169$ & ARA
+\backslash
+
+\backslash
+ $0.6096$ & $0.2036$ & $0.5923$ & $0.4628$ & HOMEX
+\backslash
+
+\backslash
+ $0.4066$ & $-0.3543$ & $-0.1363$ & $0.2655$ & SARE
+\backslash
+
+\backslash
+ $-0.5004$ & $0.0882$ & $-0.0683$ & $-0.4224$ & VINTE
+\backslash
+
+\backslash
+ $1.0000$ & $0.3381$ & $0.5335$ & $0.8563$ & CEMEX
+\backslash
+
+\backslash
+  & $1.0000$ & $0.5554$ & $0.5947$ & TUBACEX
+\backslash
+
+\backslash
+  &  & $1.0000$ & $0.6304$ & GCARSO
+\backslash
+
+\backslash
+  &  &  & $1.0000$ & IPC
+\backslash
+
+\backslash
+ 
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Modelo estimado
+\end_layout
+
+\begin_layout Subsection
+Prueba de Causalidad
+\end_layout
+
+\begin_layout Subsubsection
+Etapa 1: contrastando la existencia de una raíz unitaria en JAVER
+\end_layout
+
+\begin_layout Standard
+Contraste aumentado de Dickey-Fuller para JAVER 
+\end_layout
+
+\begin_layout Standard
+incluyendo 12 retardos de (1-L)JAVER
+\end_layout
+
+\begin_layout Standard
+tamaño muestral 249 
+\end_layout
+
+\begin_layout Standard
+la hipótesis nula de raíz unitaria es: [a = 1] 
+\end_layout
+
+\begin_layout Standard
+contraste con constante 
+\end_layout
+
+\begin_layout Standard
+modelo: (1-L)y = b0 + (a-1)*y(-1) + ...
+ + e
+\end_layout
+
+\begin_layout Standard
+valor estimado de (a - 1): -0.0954784 
+\end_layout
+
+\begin_layout Standard
+estadístico de contraste: tau_c(1) = -3.3266 
+\end_layout
+
+\begin_layout Standard
+valor p asintótico 0.01376 
+\end_layout
+
+\begin_layout Standard
+Coef.
+ de autocorrelación de primer orden de e: -0.007
+\end_layout
+
+\begin_layout Standard
+diferencias retardadas: F(12, 235) = 3.106 [0.0004] 
+\end_layout
+
+\begin_layout Subsubsection
+Etapa 2: Contrastando la existencia de una raíz unitaria en ARA
+\end_layout
+
+\begin_layout Standard
+Contraste aumentado de Dickey-Fuller para ARA 
+\end_layout
+
+\begin_layout Standard
+incluyendo 12 retardos de (1-L)ARA
+\end_layout
+
+\begin_layout Standard
+tamaño muestral 249 
+\end_layout
+
+\begin_layout Standard
+la hipótesis nula de raíz unitaria es: [a = 1]
+\end_layout
+
+\begin_layout Standard
+contraste con constante 
+\end_layout
+
+\begin_layout Standard
+modelo: (1-L)y = b0 + (a-1)*y(-1) + ...
+ + e 
+\end_layout
+
+\begin_layout Standard
+valor estimado de (a - 1): -0.0163468
+\end_layout
+
+\begin_layout Standard
+estadístico de contraste: tau_c(1) = -1.64564 
+\end_layout
+
+\begin_layout Standard
+valor p asintótico 0.4591 
+\end_layout
+
+\begin_layout Standard
+Coef.
+ de autocorrelación de primer orden de e: 0.003 
+\end_layout
+
+\begin_layout Standard
+diferencias retardadas: F(12, 235) = 1.127 [0.3385] 
+\end_layout
+
+\begin_layout Subsubsection
+Etapa 3: Contrastando la existencia de una raíz unitaria en HOMEX
+\end_layout
+
+\begin_layout Standard
+Contraste aumentado de Dickey-Fuller para HOMEX 
+\end_layout
+
+\begin_layout Standard
+incluyendo 12 retardos de (1-L)HOMEX 
+\end_layout
+
+\begin_layout Standard
+tamaño muestral 249 
+\end_layout
+
+\begin_layout Standard
+la hipótesis nula de raíz unitaria es: [a = 1] 
+\end_layout
+
+\begin_layout Standard
+contraste con constante 
+\end_layout
+
+\begin_layout Standard
+modelo: (1-L)y = b0 + (a-1)*y(-1) + ...
+ + e 
+\end_layout
+
+\begin_layout Standard
+valor estimado de (a - 1): -0.0261363 
+\end_layout
+
+\begin_layout Standard
+estadístico de contraste: tau_c(1) = -2.72621 
+\end_layout
+
+\begin_layout Standard
+valor p asintótico 0.06955 
+\end_layout
+
+\begin_layout Standard
+Coef.
+ de autocorrelación de primer orden de e: 0.002 
+\end_layout
+
+\begin_layout Standard
+diferencias retardadas: F(12, 235) = 1.927 [0.0321] 
+\end_layout
+
+\begin_layout Subsubsection
+Etapa 4: Contrastando la existencia de una raíz unitaria en SARE
+\end_layout
+
+\begin_layout Standard
+Contraste aumentado de Dickey-Fuller para SARE 
+\end_layout
+
+\begin_layout Standard
+incluyendo 12 retardos de (1-L)SARE
+\end_layout
+
+\begin_layout Standard
+tamaño muestral 249
+\end_layout
+
+\begin_layout Standard
+la hipótesis nula de raíz unitaria es: [a = 1] 
+\end_layout
+
+\begin_layout Standard
+contraste con constante 
+\end_layout
+
+\begin_layout Standard
+modelo: (1-L)y = b0 + (a-1)*y(-1) + ...
+ + e 
+\end_layout
+
+\begin_layout Standard
+valor estimado de (a - 1): 0.0784174
+\end_layout
+
+\begin_layout Standard
+estadístico de contraste: tau_c(1) = 2.72176
+\end_layout
+
+\begin_layout Standard
+valor p asintótico 1
+\end_layout
+
+\begin_layout Standard
+Coef.
+ de autocorrelación de primer orden de e: -0.000 
+\end_layout
+
+\begin_layout Standard
+diferencias retardadas: F(12, 235) = 2.223 [0.0115]
+\end_layout
+
+\begin_layout Subsubsection
+Etapa 5: Contrastando la existencia de una raíz unitaria en VINTE
+\end_layout
+
+\begin_layout Standard
+Contraste aumentado de Dickey-Fuller para VINTE
+\end_layout
+
+\begin_layout Standard
+incluyendo 12 retardos de (1-L)VINTE
+\end_layout
+
+\begin_layout Standard
+tamaño muestral 249
+\end_layout
+
+\begin_layout Standard
+la hipótesis nula de raíz unitaria es: [a = 1] 
+\end_layout
+
+\begin_layout Standard
+contraste con constante 
+\end_layout
+
+\begin_layout Standard
+modelo: (1-L)y = b0 + (a-1)*y(-1) + ...
+ + e 
+\end_layout
+
+\begin_layout Standard
+valor estimado de (a - 1): -0.0409448
+\end_layout
+
+\begin_layout Standard
+estadístico de contraste: tau_c(1) = -1.02892
+\end_layout
+
+\begin_layout Standard
+valor p asintótico 0.7451
+\end_layout
+
+\begin_layout Standard
+Coef.
+ de autocorrelación de primer orden de e: -0.001
+\end_layout
+
+\begin_layout Standard
+diferencias retardadas: F(12, 235) = 0.058 [1.0000]
+\end_layout
+
+\begin_layout Subsubsection
+Etapa 6: contrastando la existencia de una raíz unitaria en CEMEX
+\end_layout
+
+\begin_layout Standard
+Contraste aumentado de Dickey-Fuller para CEMEX
+\end_layout
+
+\begin_layout Standard
+incluyendo 12 retardos de (1-L)CEMEX
+\end_layout
+
+\begin_layout Standard
+tamaño muestral 249
+\end_layout
+
+\begin_layout Standard
+la hipótesis nula de raíz unitaria es: [a = 1]
+\end_layout
+
+\begin_layout Standard
+contraste con constante modelo: (1-L)y = b0 + (a-1)*y(-1) + ...
+ + e 
+\end_layout
+
+\begin_layout Standard
+valor estimado de (a - 1): -0.0112252
+\end_layout
+
+\begin_layout Standard
+estadístico de contraste: tau_c(1) = -1.20062 
+\end_layout
+
+\begin_layout Standard
+valor p asintótico 0.6766
+\end_layout
+
+\begin_layout Standard
+Coef.
+ de autocorrelación de primer orden de e: 0.001 
+\end_layout
+
+\begin_layout Standard
+diferencias retardadas: F(12, 235) = 0.682 [0.7677] 
+\end_layout
+
+\begin_layout Subsubsection
+Etapa 7: contrastando la existencia de una raíz unitaria en TUBACEX
+\end_layout
+
+\begin_layout Standard
+Contraste aumentado de Dickey-Fuller para TUBACEX 
+\end_layout
+
+\begin_layout Standard
+incluyendo 12 retardos de (1-L)TUBACEX
+\end_layout
+
+\begin_layout Standard
+tamaño muestral 249
+\end_layout
+
+\begin_layout Standard
+la hipótesis nula de raíz unitaria es: [a = 1]
+\end_layout
+
+\begin_layout Standard
+contraste con constante modelo: (1-L)y = b0 + (a-1)*y(-1) + ...
+ + e
+\end_layout
+
+\begin_layout Standard
+valor estimado de (a - 1): -0.0120344
+\end_layout
+
+\begin_layout Standard
+estadístico de contraste: tau_c(1) = -1.08385
+\end_layout
+
+\begin_layout Standard
+valor p asintótico 0.7245 
+\end_layout
+
+\begin_layout Standard
+Coef.
+ de autocorrelación de primer orden de e: 0.000
+\end_layout
+
+\begin_layout Standard
+diferencias retardadas: F(12, 235) = 0.936 [0.5119] 
+\end_layout
+
+\begin_layout Subsubsection
+Etapa 8: contrastando la existencia de una raíz unitaria en GCARSO
+\end_layout
+
+\begin_layout Standard
+Contraste aumentado de Dickey-Fuller para GCARSO
+\end_layout
+
+\begin_layout Standard
+incluyendo 12 retardos de (1-L)GCARSO
+\end_layout
+
+\begin_layout Standard
+tamaño muestral 249
+\end_layout
+
+\begin_layout Standard
+la hipótesis nula de raíz unitaria es: [a = 1
+\end_layout
+
+\begin_layout Standard
+] contraste con constante modelo: (1-L)y = b0 + (a-1)*y(-1) + ...
+ + e 
+\end_layout
+
+\begin_layout Standard
+valor estimado de (a - 1): -0.0337886 
+\end_layout
+
+\begin_layout Standard
+estadístico de contraste: tau_c(1) = -1.84751
+\end_layout
+
+\begin_layout Standard
+valor p asintótico 0.3577
+\end_layout
+
+\begin_layout Standard
+Coef.
+ de autocorrelación de primer orden de e: 0.000
+\end_layout
+
+\begin_layout Standard
+diferencias retardadas: F(12, 235) = 0.534 [0.8911]
+\end_layout
+
+\begin_layout Subsubsection
+Etapa 9: contrastando la existencia de una raíz unitaria en IPC
+\end_layout
+
+\begin_layout Standard
+Contraste aumentado de Dickey-Fuller para IPC
+\end_layout
+
+\begin_layout Standard
+incluyendo 12 retardos de (1-L)IPC 
+\end_layout
+
+\begin_layout Standard
+tamaño muestral 249
+\end_layout
+
+\begin_layout Standard
+la hipótesis nula de raíz unitaria es: [a = 1]
+\end_layout
+
+\begin_layout Standard
+contraste con constante modelo: (1-L)y = b0 + (a-1)*y(-1) + ...
+ + e
+\end_layout
+
+\begin_layout Standard
+valor estimado de (a - 1): -0.0241078
+\end_layout
+
+\begin_layout Standard
+estadístico de contraste: tau_c(1) = -1.52147 
+\end_layout
+
+\begin_layout Standard
+valor p asintótico 0.5229
+\end_layout
+
+\begin_layout Standard
+Coef.
+ de autocorrelación de primer orden de e: -0.001
+\end_layout
+
+\begin_layout Standard
+diferencias retardadas: F(12, 235) = 0.756 [0.6949] 
+\end_layout
+
+\begin_layout Subsubsection
+Etapa 10: Regresión Cointegrantes
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+Modelo 1: MCO, usando las observaciones 2016-06-13--2021-06-14 ($T$ = 262)
+\backslash
+
+\backslash
+ Variable dependiente: JAVER
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{1em}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{lr@{.}lr@{.}lr@{.}lr@{.}l}   &  
+\backslash
+multicolumn{2}{c}{Coeficiente} &   
+\backslash
+multicolumn{2}{c}{Desv.
+\backslash
+ Típica} &    
+\backslash
+multicolumn{2}{c}{Estadístico $t$} &     
+\backslash
+multicolumn{2}{c}{valor p} 
+\backslash
+
+\backslash
+[1ex] const &   17&1440 &     0&958415 &       17&89 &         0&0000 
+\backslash
+
+\backslash
+ ARA &   1&02731 &     0&0888119 &       11&57 &         0&0000 
+\backslash
+
+\backslash
+ HOMEX &   $-$1&22149 &     0&129723 &       $-$9&416 &         0&0000 
+\backslash
+
+\backslash
+ SARE &   $-$0&100930 &     0&130409 &       $-$0&7740 &         0&4397
+ 
+\backslash
+
+\backslash
+ VINTE &   0&00924528 &     0&0102871 &       0&8987 &         0&3697 
+\backslash
+
+\backslash
+ CEMEX &   $-$0&125687 &     0&0341792 &       $-$3&677 &         0&0003
+ 
+\backslash
+
+\backslash
+ TUBACEX &   $-$0&0518887 &     0&00713753 &       $-$7&270 &         0&0000
+ 
+\backslash
+
+\backslash
+ GCARSO &   0&0203347 &     0&00685629 &       2&966 &         0&0033 
+\backslash
+
+\backslash
+ IPC &   $-$5&16407
+\backslash
+textrm{e--005} &     2&99152
+\backslash
+textrm{e--005} &       $-$1&726 &         0&0855 
+\backslash
+
+\backslash
+ 
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{1ex} 
+\backslash
+begin{tabular}{lrlr} Media de la vble.
+ dep.
+ &  16.35262 & D.T.
+ de la vble.
+ dep.
+ &  1.010759 
+\backslash
+
+\backslash
+ Suma de cuad.
+ residuos &  140.8704 & D.T.
+ de la regresión &  0.746190 
+\backslash
+
+\backslash
+ $R^2$ &  0.471696 & $R^2$ corregido &  0.454991 
+\backslash
+
+\backslash
+ $F(8, 253)$ &  28.23636 & Valor p (de $F$) &  3.36
+\backslash
+textrm{e--31} 
+\backslash
+
+\backslash
+ Log-verosimilitud & $-$290.4758 & Criterio de Akaike &  598.9516 
+\backslash
+
+\backslash
+ Criterio de Schwarz &  631.0667 & Hannan--Quinn &  611.8594 
+\backslash
+
+\backslash
+ $
+\backslash
+hat{
+\backslash
+rho}$ &  0.828723 & Durbin--Watson &  0.340061 
+\backslash
+
+\backslash
+ 
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Generación y análisis de modelos
+\end_layout
+
+\begin_layout Standard
+Estimar el modelo CAPM para las dos variables La constante tiene que ser
+ no significativa para que la teoría del modelo CAPM sea aplicable a nuestro
+ mercado Arbitraje- ganancias en inversiones sin riesgo.
+ (Si la constante es significativa entonces ese activo ofrece ganancia sin
+ importar que es lo que vaya a pasar con el mercado.) Veremos si hay o no
+ arbitraje en el mercado financiero mexicano.
+ SI HAY ARBITRAJE Constante no significativa Beta – Si beta es mayor a 1
+ el activo financiero es un activo bull - Mercado alcista Si beta es menor
+ a 1 el activo financiero es un activo bear - Mercado bajista (ganancias
+ del activo mas pequeñas respecto al mercado) Pm ganancia o perdida que
+ tiene el mercado respecto a un activo libre de riesgo, la accion aumenta
+ respecto al valor que esta en pm
+\end_layout
+
+\begin_layout Subsubsection
+Modelo 1
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} Modelo 3: MCO, usando las observaciones 2016-06-20--2021-06-14
+ ($T$ = 261)
+\backslash
+
+\backslash
+ Variable dependiente: pAra
+\backslash
+
+\backslash
+ 
+\backslash
+vspace{1em} 
+\backslash
+begin{tabular}{lr@{.}lr@{.}lr@{.}lr@{.}l}   &  
+\backslash
+multicolumn{2}{c}{Coeficiente} &   
+\backslash
+multicolumn{2}{c}{Desv.
+\backslash
+ Típica} &    
+\backslash
+multicolumn{2}{c}{Estadístico $t$} &     
+\backslash
+multicolumn{2}{c}{valor p} 
+\backslash
+
+\backslash
+[1ex] const &   $-$0&0735679 &     0&268305 &       $-$0&2742 &        
+ 0&7842 
+\backslash
+
+\backslash
+ pm &   0&684007 &     0&118281 &       5&783 &         0&0000 
+\backslash
+
+\backslash
+ 
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{1ex} 
+\backslash
+begin{tabular}{lrlr} Media de la vble.
+ dep.
+ & $-$0.108367 & D.T.
+ de la vble.
+ dep.
+ &  4.595923 
+\backslash
+
+\backslash
+ Suma de cuad.
+ residuos &  4863.833 & D.T.
+ de la regresión &  4.333506 
+\backslash
+
+\backslash
+ $R^2$ &  0.114355 & $R^2$ corregido &  0.110935 
+\backslash
+
+\backslash
+ $F(1, 259)$ &  33.44218 & Valor p (de $F$) &  2.11
+\backslash
+textrm{e--08} 
+\backslash
+
+\backslash
+ Log-verosimilitud & $-$752.0635 & Criterio de Akaike &  1508.127 
+\backslash
+
+\backslash
+ Criterio de Schwarz &  1515.256 & Hannan--Quinn &  1510.993 
+\backslash
+
+\backslash
+ $
+\backslash
+hat{
+\backslash
+rho}$ & $-$0.170971 & Durbin--Watson &  2.341301 
+\backslash
+
+\backslash
+ 
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Modelo 2
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+Modelo 2: MCO, usando las observaciones 2016-06-20--2021-06-14 ($T$ = 261)
+\backslash
+
+\backslash
+ Variable dependiente: pc
+\backslash
+_JAVER
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{1em}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{lr@{.}lr@{.}lr@{.}lr@{.}l}   &  
+\backslash
+multicolumn{2}{c}{Coeficiente} &   
+\backslash
+multicolumn{2}{c}{Desv.
+\backslash
+ Típica} &    
+\backslash
+multicolumn{2}{c}{Estadístico $t$} &     
+\backslash
+multicolumn{2}{c}{valor p} 
+\backslash
+
+\backslash
+[1ex] const &   0&0146518 &     0&137154 &       0&1068 &         0&9150
+ 
+\backslash
+
+\backslash
+ pm &   0&000891121 &     0&0604634 &       0&01474 &         0&9883 
+\backslash
+
+\backslash
+ 
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{1ex} 
+\backslash
+begin{tabular}{lrlr} Media de la vble.
+ dep.
+ &  0.014607 & D.T.
+ de la vble.
+ dep.
+ &  2.210967 
+\backslash
+
+\backslash
+ Suma de cuad.
+ residuos &  1270.976 & D.T.
+ de la regresión &  2.215230 
+\backslash
+
+\backslash
+ $R^2$ &  0.000001 & $R^2$ corregido & -0.003860 
+\backslash
+
+\backslash
+ $F(1, 259)$ &  0.000217 & Valor p (de $F$) &  0.988252 
+\backslash
+
+\backslash
+ Log-verosimilitud & $-$576.9271 & Criterio de Akaike &  1157.854 
+\backslash
+
+\backslash
+ Criterio de Schwarz &  1164.983 & Hannan--Quinn &  1160.720 
+\backslash
+
+\backslash
+ $
+\backslash
+hat{
+\backslash
+rho}$ &  0.074849 & Durbin--Watson &  1.849518 
+\backslash
+
+\backslash
+ 
+\backslash
+end{tabular} 
+\backslash
+end{center} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Modelo 3
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} Modelo 3: MCO, usando las observaciones 2016-06-20--2021-06-14
+ ($T$ = 261)
+\backslash
+
+\backslash
+ Variable dependiente: pAra
+\backslash
+
+\backslash
+ 
+\backslash
+vspace{1em} 
+\backslash
+begin{tabular}{lr@{.}lr@{.}lr@{.}lr@{.}l}   &  
+\backslash
+multicolumn{2}{c}{Coeficiente} &   
+\backslash
+multicolumn{2}{c}{Desv.
+\backslash
+ Típica} &    
+\backslash
+multicolumn{2}{c}{Estadístico $t$} &     
+\backslash
+multicolumn{2}{c}{valor p} 
+\backslash
+
+\backslash
+[1ex] const &   $-$0&0735679 &     0&268305 &       $-$0&2742 &        
+ 0&7842 
+\backslash
+
+\backslash
+ pm &   0&684007 &     0&118281 &       5&783 &         0&0000 
+\backslash
+
+\backslash
+ 
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{1ex} 
+\backslash
+begin{tabular}{lrlr} Media de la vble.
+ dep.
+ & $-$0.108367 & D.T.
+ de la vble.
+ dep.
+ &  4.595923 
+\backslash
+
+\backslash
+ Suma de cuad.
+ residuos &  4863.833 & D.T.
+ de la regresión &  4.333506 
+\backslash
+
+\backslash
+ $R^2$ &  0.114355 & $R^2$ corregido &  0.110935 
+\backslash
+
+\backslash
+ $F(1, 259)$ &  33.44218 & Valor p (de $F$) &  2.11
+\backslash
+textrm{e--08} 
+\backslash
+
+\backslash
+ Log-verosimilitud & $-$752.0635 & Criterio de Akaike &  1508.127 
+\backslash
+
+\backslash
+ Criterio de Schwarz &  1515.256 & Hannan--Quinn &  1510.993 
+\backslash
+
+\backslash
+ $
+\backslash
+hat{
+\backslash
+rho}$ & $-$0.170971 & Durbin--Watson &  2.341301 
+\backslash
+
+\backslash
+ 
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Modelo 4
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+Modelo 4: MCO, usando las observaciones 2016-06-20--2021-06-14 ($T$ = 261)
+\backslash
+
+\backslash
+ Variable dependiente: pc
+\backslash
+_HOMEX
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{1em}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{lr@{.}lr@{.}lr@{.}lr@{.}l}   &  
+\backslash
+multicolumn{2}{c}{Coeficiente} &   
+\backslash
+multicolumn{2}{c}{Desv.
+\backslash
+ Típica} &    
+\backslash
+multicolumn{2}{c}{Estadístico $t$} &     
+\backslash
+multicolumn{2}{c}{valor p} 
+\backslash
+
+\backslash
+[1ex] const &   $-$1&03926 &     0&809848 &       $-$1&283 &         0&2005
+ 
+\backslash
+
+\backslash
+ pm &   0&816398 &     0&357017 &       2&287 &         0&0230 
+\backslash
+
+\backslash
+ 
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{1ex} 
+\backslash
+begin{tabular}{lrlr} Media de la vble.
+ dep.
+ & $-$1.080799 & D.T.
+ de la vble.
+ dep.
+ &  13.18615 
+\backslash
+
+\backslash
+ Suma de cuad.
+ residuos &  44312.72 & D.T.
+ de la regresión &  13.08020 
+\backslash
+
+\backslash
+ $R^2$ &  0.019790 & $R^2$ corregido &  0.016005 
+\backslash
+
+\backslash
+ $F(1, 259)$ &  5.229099 & Valor p (de $F$) &  0.023019 
+\backslash
+
+\backslash
+ Log-verosimilitud & $-$1040.396 & Criterio de Akaike &  2084.792 
+\backslash
+
+\backslash
+ Criterio de Schwarz &  2091.921 & Hannan--Quinn &  2087.658 
+\backslash
+
+\backslash
+ $
+\backslash
+hat{
+\backslash
+rho}$ &  0.070072 & Durbin--Watson &  1.858452 
+\backslash
+
+\backslash
+ 
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Modelo 5
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+Modelo 5: MCO, usando las observaciones 2016-06-20--2021-06-14 ($T$ = 261)
+\backslash
+
+\backslash
+ Variable dependiente: pc
+\backslash
+_SARE
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{1em}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{lr@{.}lr@{.}lr@{.}lr@{.}l}   &  
+\backslash
+multicolumn{2}{c}{Coeficiente} &   
+\backslash
+multicolumn{2}{c}{Desv.
+\backslash
+ Típica} &    
+\backslash
+multicolumn{2}{c}{Estadístico $t$} &     
+\backslash
+multicolumn{2}{c}{valor p} 
+\backslash
+
+\backslash
+[1ex] const &   1&62004 &     0&896353 &       1&807 &         0&0719 
+\backslash
+
+\backslash
+ pm &   0&110274 &     0&395152 &       0&2791 &         0&7804 
+\backslash
+
+\backslash
+ 
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{1ex} 
+\backslash
+begin{tabular}{lrlr} Media de la vble.
+ dep.
+ &  1.614429 & D.T.
+ de la vble.
+ dep.
+ &  14.45169 
+\backslash
+
+\backslash
+ Suma de cuad.
+ residuos &  54285.01 & D.T.
+ de la regresión &  14.47738 
+\backslash
+
+\backslash
+ $R^2$ &  0.000301 & $R^2$ corregido & -0.003559 
+\backslash
+
+\backslash
+ $F(1, 259)$ &  0.077879 & Valor p (de $F$) &  0.780415 
+\backslash
+
+\backslash
+ Log-verosimilitud & $-$1066.884 & Criterio de Akaike &  2137.769 
+\backslash
+
+\backslash
+ Criterio de Schwarz &  2144.898 & Hannan--Quinn &  2140.635 
+\backslash
+
+\backslash
+ $
+\backslash
+hat{
+\backslash
+rho}$ & $-$0.058051 & Durbin--Watson &  2.109750 
+\backslash
+
+\backslash
+ 
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}  
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Modelo 6
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+ 
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+Modelo 6: MCO, usando las observaciones 2016-06-20--2021-03-08 ($T$ = 247)
+\backslash
+
+\backslash
+ Variable dependiente: pc
+\backslash
+_VINTE
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{1em}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{lr@{.}lr@{.}lr@{.}lr@{.}l}   &  
+\backslash
+multicolumn{2}{c}{Coeficiente} &   
+\backslash
+multicolumn{2}{c}{Desv.
+\backslash
+ Típica} &    
+\backslash
+multicolumn{2}{c}{Estadístico $t$} &     
+\backslash
+multicolumn{2}{c}{valor p} 
+\backslash
+
+\backslash
+[1ex] const &   $-$0&323264 &     0&410881 &       $-$0&7868 &         0&4322
+ 
+\backslash
+
+\backslash
+ pm &   $-$0&197751 &     0&177891 &       $-$1&112 &         0&2674 
+\backslash
+
+\backslash
+ 
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{1ex} 
+\backslash
+begin{tabular}{lrlr} Media de la vble.
+ dep.
+ & $-$0.308115 & D.T.
+ de la vble.
+ dep.
+ &  6.457046 
+\backslash
+
+\backslash
+ Suma de cuad.
+ residuos &  10205.11 & D.T.
+ de la regresión &  6.453954 
+\backslash
+
+\backslash
+ $R^2$ &  0.005019 & $R^2$ corregido &  0.000957 
+\backslash
+
+\backslash
+ $F(1, 245)$ &  1.235742 & Valor p (de $F$) &  0.267383 
+\backslash
+
+\backslash
+ Log-verosimilitud & $-$810.0529 & Criterio de Akaike &  1624.106 
+\backslash
+
+\backslash
+ Criterio de Schwarz &  1631.125 & Hannan--Quinn &  1626.932 
+\backslash
+
+\backslash
+ $
+\backslash
+hat{
+\backslash
+rho}$ & $-$0.268262 & Durbin--Watson &  1.058367 
+\backslash
+
+\backslash
+ 
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Modelo 7
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+Modelo 7: MCO, usando las observaciones 2016-06-20--2021-06-14 ($T$ = 261)
+\backslash
+
+\backslash
+ Variable dependiente: pc
+\backslash
+_CEMEX
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{1em}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{lr@{.}lr@{.}lr@{.}lr@{.}l}   &  
+\backslash
+multicolumn{2}{c}{Coeficiente} &   
+\backslash
+multicolumn{2}{c}{Desv.
+\backslash
+ Típica} &    
+\backslash
+multicolumn{2}{c}{Estadístico $t$} &     
+\backslash
+multicolumn{2}{c}{valor p} 
+\backslash
+
+\backslash
+[1ex] const &   0&356718 &     0&246898 &       1&445 &         0&1497 
+\backslash
+
+\backslash
+ pm &   1&56236 &     0&108844 &       14&35 &         0&0000 
+\backslash
+
+\backslash
+ 
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{1ex} 
+\backslash
+begin{tabular}{lrlr} Media de la vble.
+ dep.
+ &  0.277234 & D.T.
+ de la vble.
+ dep.
+ &  5.333213 
+\backslash
+
+\backslash
+ Suma de cuad.
+ residuos &  4118.678 & D.T.
+ de la regresión &  3.987760 
+\backslash
+
+\backslash
+ $R^2$ &  0.443062 & $R^2$ corregido &  0.440912 
+\backslash
+
+\backslash
+ $F(1, 259)$ &  206.0430 & Valor p (de $F$) &  8.94
+\backslash
+textrm{e--35} 
+\backslash
+
+\backslash
+ Log-verosimilitud & $-$730.3621 & Criterio de Akaike &  1464.724 
+\backslash
+
+\backslash
+ Criterio de Schwarz &  1471.853 & Hannan--Quinn &  1467.590 
+\backslash
+
+\backslash
+ $
+\backslash
+hat{
+\backslash
+rho}$ & $-$0.044510 & Durbin--Watson &  2.081629 
+\backslash
+
+\backslash
+ 
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Modelo 8
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+Modelo 8: MCO, usando las observaciones 2016-06-20--2021-06-14 ($T$ = 261)
+\backslash
+
+\backslash
+ Variable dependiente: pc
+\backslash
+_TUBACEX
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{1em}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{lr@{.}lr@{.}lr@{.}lr@{.}l}   &  
+\backslash
+multicolumn{2}{c}{Coeficiente} &   
+\backslash
+multicolumn{2}{c}{Desv.
+\backslash
+ Típica} &    
+\backslash
+multicolumn{2}{c}{Estadístico $t$} &     
+\backslash
+multicolumn{2}{c}{valor p} 
+\backslash
+
+\backslash
+[1ex] const &   0&0811712 &     0&294212 &       0&2759 &         0&7828
+ 
+\backslash
+
+\backslash
+ pm &   0&307549 &     0&129701 &       2&371 &         0&0185 
+\backslash
+
+\backslash
+ 
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{1ex} 
+\backslash
+begin{tabular}{lrlr} Media de la vble.
+ dep.
+ &  0.065525 & D.T.
+ de la vble.
+ dep.
+ &  4.793996 
+\backslash
+
+\backslash
+ Suma de cuad.
+ residuos &  5848.459 & D.T.
+ de la regresión &  4.751939 
+\backslash
+
+\backslash
+ $R^2$ &  0.021248 & $R^2$ corregido &  0.017469 
+\backslash
+
+\backslash
+ $F(1, 259)$ &  5.622637 & Valor p (de $F$) &  0.018462 
+\backslash
+
+\backslash
+ Log-verosimilitud & $-$776.1214 & Criterio de Akaike &  1556.243 
+\backslash
+
+\backslash
+ Criterio de Schwarz &  1563.372 & Hannan--Quinn &  1559.108 
+\backslash
+
+\backslash
+ $
+\backslash
+hat{
+\backslash
+rho}$ & $-$0.048756 & Durbin--Watson &  2.097501 
+\backslash
+
+\backslash
+ 
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Modelo 9
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+Modelo 9: MCO, usando las observaciones 2016-06-20--2021-06-14 ($T$ = 261)
+\backslash
+
+\backslash
+ Variable dependiente: pc
+\backslash
+_GCARSO
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{1em}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{lr@{.}lr@{.}lr@{.}lr@{.}l}   &  
+\backslash
+multicolumn{2}{c}{Coeficiente} &   
+\backslash
+multicolumn{2}{c}{Desv.
+\backslash
+ Típica} &    
+\backslash
+multicolumn{2}{c}{Estadístico $t$} &     
+\backslash
+multicolumn{2}{c}{valor p} 
+\backslash
+
+\backslash
+[1ex] const &   0&113198 &     0&239001 &       0&4736 &         0&6362
+ 
+\backslash
+
+\backslash
+ pm &   1&00110 &     0&105362 &       9&502 &         0&0000 
+\backslash
+
+\backslash
+ 
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{1ex} 
+\backslash
+begin{tabular}{lrlr} Media de la vble.
+ dep.
+ &  0.062267 & D.T.
+ de la vble.
+ dep.
+ &  4.474143 
+\backslash
+
+\backslash
+ Suma de cuad.
+ residuos &  3859.397 & D.T.
+ de la regresión &  3.860200 
+\backslash
+
+\backslash
+ $R^2$ &  0.258474 & $R^2$ corregido &  0.255611 
+\backslash
+
+\backslash
+ $F(1, 259)$ &  90.27977 & Valor p (de $F$) &  1.46
+\backslash
+textrm{e--18} 
+\backslash
+
+\backslash
+ Log-verosimilitud & $-$721.8768 & Criterio de Akaike &  1447.754 
+\backslash
+
+\backslash
+ Criterio de Schwarz &  1454.883 & Hannan--Quinn &  1450.619 
+\backslash
+
+\backslash
+ $
+\backslash
+hat{
+\backslash
+rho}$ & $-$0.030341 & Durbin--Watson &  2.058383 
+\backslash
+
+\backslash
+ 
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Conclusiones
+\end_layout
+
+\begin_layout Section*
+Anexos
+\end_layout
+
+\end_body
+\end_document
