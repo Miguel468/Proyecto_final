@@ -573,7 +573,7 @@ status open
 \begin_inset Graphics
 	filename img/tablitas.png
 	lyxscale 50
-	scale 55
+	scale 45
 
 \end_inset
 
@@ -834,7 +834,7 @@ status open
 \begin_inset Graphics
 	filename img/ren/Tab_rend.png
 	lyxscale 50
-	scale 55
+	scale 45
 
 \end_inset
 
