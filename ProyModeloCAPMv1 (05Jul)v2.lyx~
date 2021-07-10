@@ -126,6 +126,9 @@ s como motor de la producción.
  función social.
  Es el sector de la economía que absorbe la mayor cantidad de mano de obra
  no calificada del país.
+ El presente trabajo tiene como objetivo revisar las acciones de 8 empresas
+ dedicadas al ramo de la construcción con el objetivo de conocer su desempeño
+ a traves del modelo CAPM, y así determinar cual sería la opción de inversión.
  
 \end_layout
 
@@ -308,10 +311,13 @@ El modelo presume varios supuestos sobre el comportamiento de los mercados
 
 \begin_layout Itemize
 
+\series bold
 \emph on
 Modelo estático, no dinámico
 \emph default
 .
+
+\series default
  Los inversores únicamente toman en consideración un período.
  Por ejemplo, un año.
  
@@ -319,18 +325,24 @@ Modelo estático, no dinámico
 
 \begin_layout Itemize
 
+\series bold
 \emph on
 Los inversores son aversos al riesgo
 \emph default
-, no propensos.
+,
+\series default
+ no propensos.
  Para inversiones con mayor nivel de riesgo exigirán mayores rentabilidades.
  
 \end_layout
 
 \begin_layout Itemize
 
+\series bold
 \emph on
 Los inversores sólo atienden al riesgo sistemático.
+
+\series default
  E
 \emph default
 l mercado no genera mayor o menor rentabilidad para los activos por el riesgo
@@ -340,11 +352,14 @@ l mercado no genera mayor o menor rentabilidad para los activos por el riesgo
 
 \begin_layout Itemize
 
+\series bold
 \emph on
 La rentabilidad de los activos se corresponde con una distribución normal
 \emph default
 .
- La esperanza matemática, se asocia a la rentabilidad.
+ 
+\series default
+La esperanza matemática, se asocia a la rentabilidad.
  La desviación estándar, se asocia al nivel de riesgo.
  Por tanto, los inversores se preocupan por la desviación del activo respecto
  al mercado en que cotiza.
@@ -354,9 +369,11 @@ La rentabilidad de los activos se corresponde con una distribución normal
 
 \begin_layout Itemize
 
+\series bold
 \emph on
 El mercado es perfectamente competitivo.
 
+\series default
 \emph default
  Cada inversor posee una función de utilidad y una dotación de riqueza inicial.
  Los inversores optimizarán su utilidad en función de las desviaciones del
@@ -366,8 +383,10 @@ El mercado es perfectamente competitivo.
 
 \begin_layout Itemize
 
+\series bold
 \emph on
 Todos los inversores poseen la misma información
+\series default
 \emph default
  de forma instantánea y gratuita.
  Por tanto, sus expectativas de rentabilidad y riesgo para cada tipo de
@@ -379,17 +398,39 @@ Variables del Modelo
 \end_layout
 
 \begin_layout Standard
-Describir las caracteristicas de los datos del modelo, nomenclaturas, significad
-os, temporalidad, frecuencias, unidades de medida, unidades de observación
+Una acción representa una parte alícuota del capital social de una empresa,
+ entendiendo por capital social el valor de las aportaciones de los socios.
+ Es decir, las acciones confieren a su poseedor la condición de propietario
+ y como tal, un accionista tiene ciertos derechos, como el derecho de voto
+ en junta o el derecho de participar en los beneficios.
+\end_layout
+
+\begin_layout Standard
+Las empresas cotizadas en bolsa suelen tener dividido su capital social
+ en un gran número de acciones, de manera que cualquier persona puede comprar
+ un número determinado de acciones en la bolsa de valores del país en el
+ que cotiza.
+ Al hacerlo, dicha persona pasa a ser propietario de una parte (acción)
+ de ese negocio.
+ Sin embargo, su porcentaje de participación en la empresa será probablemente
+ muy bajo y no tendrá el poder suficiente para imponer su voluntad en la
+ dirección de la empresa.
+ Se seleccionaron 8 empresas del ramo de la contrucción, además del IPC
+ (Indice de Precios de Consumo) y se tomo como periodo de anális de 13/06/2016
+ al 13/06/2021.
+ Las empresas selecionadas son las siguientes:
 \end_layout
 
 \begin_layout Itemize
 
+\series bold
 \emph on
 ARA (Consorcio ARA, S.A.B.
  de C.V.):
 \emph default
- Es una empresa pública que se dedica al diseño, promoción, construcción
+ 
+\series default
+Es una empresa pública que se dedica al diseño, promoción, construcción
  y comercialización de desarrollos habitacionales de Interés Social, Tipo
  Medio y Residencial, así como a la edificación y arrendamiento de centros
  comerciales.
@@ -397,9 +438,11 @@ ARA (Consorcio ARA, S.A.B.
 
 \begin_layout Itemize
 
+\series bold
 \emph on
 CEMEX (CEMEX, S.A.B.
  de C.V.):
+\series default
 \emph default
  Es una empresa multinacional mexicana dedicada a la industria de la construcció
 n, que ofrece productos y servicio a clientes y comunidades en más de 50
@@ -419,11 +462,14 @@ n, que ofrece productos y servicio a clientes y comunidades en más de 50
 
 \begin_layout Itemize
 
+\series bold
 \emph on
 GCARSO (Grupo Carso, S.A.B.
  de C.V.):
 \emph default
- Es uno de los conglomerados más grandes e importantes de México y de América
+ 
+\series default
+Es uno de los conglomerados más grandes e importantes de México y de América
  Latina.
  Controla y opera gran variedad de empresas en el ramo comercial, comunicacional
 , industrial y de consumo.
@@ -433,9 +479,12 @@ GCARSO (Grupo Carso, S.A.B.
 
 \begin_layout Itemize
 
+\series bold
 \emph on
 HOMEX (Desarrolladora Homex, S.A.B.
- de C.V): 
+ de C.V):
+\series default
+ 
 \emph default
 Es una empresa desarrolladora de vivienda verticalmente integrada que se
  dedica al desarrollo, construcción y venta de vivienda de interés social,
@@ -447,9 +496,11 @@ Es una empresa desarrolladora de vivienda verticalmente integrada que se
 
 \begin_layout Itemize
 
+\series bold
 \emph on
 JAVER (Servicios Corporativos Javer, S.A.B.
  de C.V.):
+\series default
 \emph default
  Es el desarrollador de vivienda más grande de México y el proveedor líder
  del sistema de créditos Infonavit en todo el país.
@@ -460,9 +511,11 @@ JAVER (Servicios Corporativos Javer, S.A.B.
 
 \begin_layout Itemize
 
+\series bold
 \emph on
 SARE (SARE Holding, S.A.B.
  de C.V):
+\series default
 \emph default
 A lo largo de 41 años de experiencia en el mercado de la vivienda, SARE
  ha consolidado una posición de liderazgo mediante una oferta diversificada
@@ -481,9 +534,11 @@ A lo largo de 41 años de experiencia en el mercado de la vivienda, SARE
 
 \begin_layout Itemize
 
+\series bold
 \emph on
 TUBACEX (Tubacex S.
  A.): 
+\series default
 \emph default
 es un grupo industrial español fundado en 1963 con sede en el municipio
  alavés de Llodio.
@@ -495,9 +550,11 @@ es un grupo industrial español fundado en 1963 con sede en el municipio
 
 \begin_layout Itemize
 
+\series bold
 \emph on
 VINTE (VINTE Viviendas Integrales, S.A.B.
  de C.V.): 
+\series default
 \emph default
 Es una inmobiliaria mexicana sustentable verticalmente integrada con un
  claro enfoque en rentabilidad.
@@ -515,8 +572,10 @@ Es una inmobiliaria mexicana sustentable verticalmente integrada con un
 
 \begin_layout Itemize
 
+\series bold
 \emph on
 IPC (Indice de Precios de Consumo): 
+\series default
 \emph default
 Es un índice económico en el que se valoran los precios de un determinado
  conjunto de bienes y servicios (conocido como «canasta familiar» o «cesta
@@ -535,30 +594,63 @@ Es un índice económico en el que se valoran los precios de un determinado
 Análisis expliratorio de variables
 \end_layout
 
-\begin_layout Subsection
-Gráficos del comportamiento de las acciones e IPC
+\begin_layout Standard
+El valor de una acción viene determinado por la oferta y la demanda de esta
+ empresa en el mercado, al salir a la bolsa, una empresa emite una cantidad
+ concreta de acciones; si estas tienen más compradores que vendedores, su
+ precio subirá y viceversa; si al salir a bolsa no existe una demanda suficente
+ que esté interesada en compara estas acciones, el valor dismunirá.
+ El 
+\series bold
+\shape italic
+análisis fundamental 
+\series default
+\shape default
+se basa en toda la información que pone una empresa cotizada a disposición
+ del público: Cuentas anuales, informes trimestrales, semestrales, hechos
+ relevantes (noticias que la propia empresa pública).
+ Además también se tiene en cuenta la evolución del sector, las perspectivas
+ de futuro del mismo y la evolución de la economía.
+ El 
+\series bold
+\shape italic
+análisis técnico 
+\series default
+\shape default
+solo tiene en cuenta el comportamiento reciente del precio en un gráfico
+ y el número de acciones negociadas.
+ Con esta información se pretende obtener una valoración sobre la dirección
+ del precio futuro.
+ Normalmente, el análisis técnico esta relacionado con la especulación (inversio
+nes de corto plazo)
 \end_layout
 
 \begin_layout Standard
-Recordemos que dos momentos en los cuales las acciones pueden ser fuertemente
- afectadas es por los cambios de gobierno o temas anormales como lo es una
- pandemia, razón por la cual se validó con esta premisa el comportamiento
- de la acción en estos periodos en específico, Recordando también que los
- bienes inmuebles tienden a ser acciones relativamente sólidas al ser considerad
-as bienes tangibles aun así la demanda disminuye y por ende los precios
- de las acciones tienden a bajar al tener una demanda menor.
+Para analizar una empresa e invertir en ella a medio o largo plazo el análisis
+ fundamental es necesario para discernir qué empresas son apropiadas y cuáles
+ no.
+ Después de ello tendremos que llegar a la conclusión de cuál es el precio
+ justo a pagar por sus acciones y hacernos una idea de cuando esa acción
+ esta cotizando cara o barata.
+ El análisis técnico puede servir para afinar el precio de compra.
+ Por lo tanto, ambos criterios no son excluyentes en la inversión de acciones,
+ más bien son compatibles.
+ El análisis fundamental indica qué empresa es válida para invertir y puede
+ llegar a hacernos una idea del precio justo de una acción mientras que
+ el análisis técnico sirve para decidir el momento de la inversión.
 \end_layout
 
 \begin_layout Standard
-de lo anterior partimos de las premisas de que el presidente Andrés Manuel
- López Obrador toma el cargo en la presidencia el primero de diciembre del
- 2018
-\end_layout
-
-\begin_layout Standard
-E igualmente la pandemia en México inicia el 27 de febrero del 2020 con
- el primer caso confirmado de Covid en México.
- 
+En nuestro trabajo consideramos 3 momentos, como parte del analisis,que
+ se presentarón en este periodos, dos de éstos momentos que influyeron en
+ el comortamiento de desempeño del valor de las acciones se relacionan con
+ el cambios de gobierno.
+ El primer momento es cuando gana las elecciones el cantidato de Morena,
+ y el segundo comento cuando el C Andrés Manuel López Obrador toma el cargo
+ de la presidencia de México el 1ro.
+ de diciembre del 2018 , el último momento fue la pandemia derivado del
+ COVID2 en México inicia la cual inicia el 27 de febrero del 2020 con el
+ primer caso confirmado de Covid.
 \end_layout
 
 \begin_layout Standard
@@ -573,7 +665,7 @@ status open
 \begin_inset Graphics
 	filename img/tablitas.png
 	lyxscale 50
-	scale 55
+	scale 75
 
 \end_inset
 
@@ -614,7 +706,7 @@ status open
 \begin_inset Graphics
 	filename img/IPC_elecciones.png
 	lyxscale 50
-	scale 35
+	scale 40
 
 \end_inset
 
@@ -646,9 +738,15 @@ Podemos observar que previo a la toma de presidencia es decir entre el cambio
  hasta enero en donde se observa un recuperamiento, nuevamente baja pero
  en general ampliando la muestra se observa que el IPC se encuentra a la
  alza.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
+
+\series bold
 HOMEX
 \end_layout
 
@@ -675,7 +773,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Comportamiento del IPC del 2016 al 2021
+Comportamiento de acciones de HOMEX del 2016 al 2021
 \end_layout
 
 \end_inset
@@ -834,7 +932,7 @@ status open
 \begin_inset Graphics
 	filename img/ren/Tab_rend.png
 	lyxscale 50
-	scale 55
+	scale 70
 
 \end_inset
 
@@ -859,8 +957,10 @@ Evolución del comportamiento de los Rendimientos de las acciones analizadas
 
 \end_layout
 
-\begin_layout Standard
-Evolución del Rendimiento de Javer
+\begin_layout Itemize
+
+\series bold
+Evolución del Rendimiento de JAVER
 \end_layout
 
 \begin_layout Standard
@@ -875,7 +975,7 @@ status open
 \begin_inset Graphics
 	filename img/ren/R1.png
 	lyxscale 50
-	scale 35
+	scale 40
 
 \end_inset
 
@@ -886,7 +986,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Evolución del Rendimiento de ARA del 2016 al 2021
+Evolución del Rendimiento de JAVER del 2016 al 2021
 \end_layout
 
 \end_inset
@@ -916,9 +1016,19 @@ Notamos que desde el inicio de la pandemia a principios del 2020 no hubo
  en mercados de las ciudades principales.
  Recientemente en junio de 2021 se nota una pérdida aproximadamente del
  5%, pero ha logrado sostenerse tras el impacto.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
+
+\series bold
 Evolución del Rendimiento de ARA
 \end_layout
 
@@ -934,7 +1044,7 @@ status open
 \begin_inset Graphics
 	filename img/ren/r2.png
 	lyxscale 50
-	scale 35
+	scale 40
 
 \end_inset
 
@@ -945,7 +1055,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Evolución del Rendimiento de CEMEX del 2016 al 2021
+Evolución del Rendimiento de ARA del 2016 al 2021
 \end_layout
 
 \end_inset
@@ -966,10 +1076,24 @@ Afectada por el golpe al turismo, además de los retrasos en obra nueva,
  a partir del 2020 es notorio como sus pérdidas y ganancias son mayores
  que en años anteriores y con esta alza se nota la recuperación de la compañía.
  
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-Evolución del Rendimiento de Homex 
+\begin_layout Itemize
+
+\series bold
+Evolución del Rendimiento de HOMEX
 \end_layout
 
 \begin_layout Standard
@@ -984,58 +1108,7 @@ status open
 \begin_inset Graphics
 	filename img/ren/r3.png
 	lyxscale 50
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Evolución del Rendimiento de GCARSO del 2016 al 2021
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Se registra su mayor pérdida en el segundo trimestre del 2018, y luego una
- recuperación de más del 100% con sus mayores ganancias registradas de los
- últimos años en el segundo periodo del 2018, reactivando así de manera
- sostenida sus rendimientos.
- Durante la pandemia los rendimientos fueron menores en ambos sentidos,
- es decir, tanto en pérdidas como ganancias, por lo que es evidente que
- representa una caída para la desarrolladora.
- 
-\end_layout
-
-\begin_layout Standard
-Evolución del Rendimiento de Sare 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename img/ren/r4.png
-	lyxscale 50
-	scale 35
+	scale 42
 
 \end_inset
 
@@ -1060,19 +1133,30 @@ Evolución del Rendimiento de HOMEX del 2016 al 2021
 \end_layout
 
 \begin_layout Standard
-Los rendimientos de Grupo SARE han sido “estables” a lo largo de los años,
- con ganancias y pérdidas no tan significativas.
- Durante el 2016, hay una marcada ganancia a partir de la segunda mitad
- del año, debido a que durante ese periodo la desarrolladora de vivienda
- regresó a operar después de 3 años de reestructuración adaptándose a la
- industria.
- A partir de mediados del 2020 se nota un mayor rango en las ganancias,
- que en periodos anteriores.
+Se registra su mayor pérdida en el segundo trimestre del 2018, y luego una
+ recuperación de más del 100% con sus mayores ganancias registradas de los
+ últimos años en el segundo periodo del 2018, reactivando así de manera
+ sostenida sus rendimientos.
+ Durante la pandemia los rendimientos fueron menores en ambos sentidos,
+ es decir, tanto en pérdidas como ganancias, por lo que es evidente que
+ representa una caída para la desarrolladora.
  
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-Evolución del Rendimiento de Vinte del 2016 al 2021
+\begin_layout Itemize
+
+\series bold
+Evolución del Rendimiento de SARE
+\series default
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1085,57 +1169,9 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename img/ren/r5.png
+	filename img/ren/r4.png
 	lyxscale 50
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Evolución del Rendimiento de JAVER del 2016 al 2021
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Vinte ha tenido rendimientos muy volátiles a lo largo de los años.
- Es notorio que a partir del 2020, sus rendimientos fueron afectados de
- manera adversa, pero en los últimos meses las fluctuaciones se han ido
- recortando por lo que puede significar una estabilidad para la constructora.
- 
-\end_layout
-
-\begin_layout Standard
-Evolución del Rendimiento de Cemex del 2016 al 2021
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename img/ren/r6.png
-	lyxscale 50
-	scale 35
+	scale 45
 
 \end_inset
 
@@ -1160,14 +1196,171 @@ Evolución del Rendimiento de SARE del 2016 al 2021
 \end_layout
 
 \begin_layout Standard
+Los rendimientos de Grupo SARE han sido “estables” a lo largo de los años,
+ con ganancias y pérdidas no tan significativas.
+ Durante el 2016, hay una marcada ganancia a partir de la segunda mitad
+ del año, debido a que durante ese periodo la desarrolladora de vivienda
+ regresó a operar después de 3 años de reestructuración adaptándose a la
+ industria.
+ A partir de mediados del 2020 se nota un mayor rango en las ganancias,
+ que en periodos anteriores.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Evolución del Rendimiento de VINTE
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/ren/r5.png
+	lyxscale 50
+	scale 45
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Evolución del Rendimiento de VINTE del 2016 al 2021
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Vinte ha tenido rendimientos muy volátiles a lo largo de los años.
+ Es notorio que a partir del 2020, sus rendimientos fueron afectados de
+ manera adversa, pero en los últimos meses las fluctuaciones se han ido
+ recortando por lo que puede significar una estabilidad para la constructora.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Evolución del Rendimiento de CEMEX
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/ren/r6.png
+	lyxscale 50
+	scale 45
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Evolución del Rendimiento de CEMEX del 2016 al 2021
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Los rendimientos de CEMEX parecen ser estables a lo largo del tiempo, aunque
  es visible una caída más prominente a principios del 2020, pero eventualmente
  sus rendimientos se “estabilizan”.
  
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-Evolución del Rendimiento de TUBACEX del 2016 al 2021
+\begin_layout Itemize
+
+\series bold
+Evolución del Rendimiento de TUBACEX
 \end_layout
 
 \begin_layout Standard
@@ -1182,7 +1375,7 @@ status open
 \begin_inset Graphics
 	filename img/ren/r7.png
 	lyxscale 50
-	scale 35
+	scale 40
 
 \end_inset
 
@@ -1210,10 +1403,16 @@ Evolución del Rendimiento de TUBACEX del 2016 al 2021
 TUBMEX, nos damos cuenta que a lo largo de la gráfica tiene muchos periodos
  sin rendimientos, por lo que no es es una empresa muy rentable.
  
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-Evolución del Rendimiento de Carso del 2016 al 2021
+\begin_layout Itemize
+
+\series bold
+Evolución del Rendimiento de CARSO
 \end_layout
 
 \begin_layout Standard
@@ -1228,7 +1427,7 @@ status open
 \begin_inset Graphics
 	filename img/ren/r8.png
 	lyxscale 50
-	scale 35
+	scale 40
 
 \end_inset
 
@@ -1239,7 +1438,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Evolución del Rendimiento de VINTE del 2016 al 2021
+Evolución del Rendimiento de GCARSO del 2016 al 2021
 \end_layout
 
 \end_inset
@@ -1257,10 +1456,16 @@ Los rendimientos de Grupo CARSO se nota estable, pero con una caída en los
  rendimientos más marcados a partir del ejercicio del 2020, aunque durante
  los últimos meses se aprecia una ligera recuperación.
  
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-Evolución del Rendimiento de IPC del 2016 al 2021
+\begin_layout Itemize
+
+\series bold
+Evolución del Rendimiento del IPC
 \end_layout
 
 \begin_layout Standard
@@ -1275,7 +1480,7 @@ status open
 \begin_inset Graphics
 	filename img/ren/r9.png
 	lyxscale 50
-	scale 35
+	scale 40
 
 \end_inset
 
@@ -7303,6 +7508,530 @@ end{center}
 \end_layout
 
 \begin_layout Standard
+Calculando el rendimiento óptimo
+\end_layout
+
+\begin_layout Standard
+Sea: 
+\end_layout
+
+\begin_layout Standard
+Ro = Rendimiento óptimo de acción 
+\end_layout
+
+\begin_layout Standard
+Rl = Media del rendimiento instrumento libre de Riesgo 
+\end_layout
+
+\begin_layout Standard
+Rm = Media del rendimiento Mercado 
+\end_layout
+
+\begin_layout Standard
+B = Beta obtenida en la regresión
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+Si Ro > Media del rendimiento de la acción 
+\end_layout
+
+\begin_layout Standard
+Se rechaza usar la acción para una inversión pues no ha alcanzado el rendimiento
+ esperado 
+\end_layout
+
+\begin_layout Standard
+Si Ro < Media del rendimiento de la acción 
+\end_layout
+
+\begin_layout Standard
+Se acepta usar la acción para una inversión, es decir, se incluye en un
+ portafolio de inversión
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="6">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Beta
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ri = media cetes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RM= Media rendimiento mercado
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RO= RI+B(RM-RI)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RO<RM
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+JAVER
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.00268
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12,199
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.01461
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12,166
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Falso
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ARA
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.68401
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12,199
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.01381
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3,855
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Falso
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+HOMEX
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.81819
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12,199
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-1.081
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2,217
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Falso
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+VINTE
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.19615
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12,199
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.3081
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+14,592
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Falso
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+CEMEX
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.56415
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12,199
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.2772
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-6,882
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Verdadero
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+TUBACEX
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.30934
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12,199
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.06552
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8,425
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Falso
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GCARSO
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.00290
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12,199
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.06227
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-35
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Verdadero
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por lo tanto de lo anterior podemos concluir que las acciones recomendables
+ para se incluidas en nuestro portafolio de inversión son: Cemex y Gcarso
+ dado que el rendimiento óptimo es mayor que el rendimiento de mercado.
+\end_layout
+
+\begin_layout Standard
+Nota: SARE no se ha incluido en el anterior análisis dado que sare cuenta
+ con arbitraje.
+ 
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -7313,11 +8042,29 @@ end{center}
 Conclusiones
 \end_layout
 
+\begin_layout Standard
+Por medio del analisis exploratorio y el modelo CAPM hemos observado que
+ el comportamiento del desempeño de las acciones de las empresas de la construcc
+ión reaciona me manera aceptable, además de que los momentos observados
+ influyeron en su mayoria en el comportamiento.
+ Podemos decir que la empresa con mejor desempeño, y con un nivel alto de
+ riesgo es XXX.
+ Un portafolio debería contar con dichas acciones y con acciones de la empresas
+ estable, porque garantizacían mayor utilidad.
+\end_layout
+
+\begin_layout Section*
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Anexos
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 Pruebas de causalidad
 \end_layout
 
